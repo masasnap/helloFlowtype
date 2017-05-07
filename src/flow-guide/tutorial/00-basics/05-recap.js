@@ -49,4 +49,4 @@ function guessParamType(value): UnitValue {
 guessParamType(100);
 
 // $FlowExpectedError: A string is not valid for UnitValue#value
-guessParamType('100');
+// guessParamType('100');
