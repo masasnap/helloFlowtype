@@ -29,9 +29,8 @@ function convertUnit(from: string, to: string, value: number): number { ... }
 - 関数の戻り値として UnitValue 型を定義
   - 関数の引数に明示的な型指定をしなくても、戻り値の型からチェックしてくれる
 
-## 06-export.js
-
-## 07-import.js
+## 06-export.js &  07-import.js
+- type を export & import で別々のファイルに定義
 
 ## 08-maybe-and-optionals.js
 
