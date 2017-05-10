@@ -62,4 +62,4 @@ const promise = readUnitValues().then((result) => {
   });
 
 // $FlowExpectedError: Flow notices that this is a Promise, so this should trigger a warning
-promise.foo;
+// promise.foo;
