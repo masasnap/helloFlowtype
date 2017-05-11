@@ -11,7 +11,7 @@ type P = {
 };
 
 // ES2016のdestructuringで展開しながら、型をチェック
-function f1({field1, field2}: P) {
+function f1({ field1, field2 }: P) {
   console.log(field1, field2);
 }
 
