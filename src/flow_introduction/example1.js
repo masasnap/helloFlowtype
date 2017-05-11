@@ -5,5 +5,6 @@ function f1(i: number) {
   console.log(i);
 }
 
-f1('10'); // numberではないのでエラー
+f1(10);
 
+// f1('10'); // numberではないのでエラー
